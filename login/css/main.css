@@ -41,9 +41,9 @@ body {
 @media (max-width: 1400px) {
     .login-info {
         position: absolute;
-        right: 159px;
+        right: 269px;
         width: 233px;
-        top: 337px;
+        top: 307px;
         padding: 0px 10px;
     }
 }
