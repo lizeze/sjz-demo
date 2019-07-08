@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+#img {
+    min-width: 100%;
+    min-height: 100%;
+    vertical-align: middle;
+}
+
+.page-container {
+    position: relative;
+    background: url('../img/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+@media (max-width: 1500px) {
+    .login-info {
+        position: absolute;
+        right: 302px;
+        width: 233px;
+        top: 337px;
+        padding: 7px 3px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .login-info {
+        position: absolute;
+        right: 159px;
+        width: 233px;
+        top: 337px;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .login-info {
+        position: absolute;
+        right: 240px;
+        width: 233px;
+        top: 287px;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .login-info {
+        position: absolute;
+        right: 0;
+        width: 233px;
+        top: 337px;
+        padding: 10px;
+    }
+}
+
+
+.login-info .input-warpper {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.login-info .input-warpper input {
+    height: 30px;
+    line-height: 30px;
+    width: 90%;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    text-align: left;
+    padding-left: 10px;
+    outline: none;
+
+
+}
+
+.login-info .input-warpper input:focus {
+    box-shadow: none;
+    border-color: #7BDAFA;
+}
+
+.login-info>span {
+    color: #ebecee;
+    margin-left: 17px;
+    font-weight:bold;
+}
+
+.login-info .remember {
+    padding-left: 19px;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.login-info .btns {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-info .btns .btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-info .btns input{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.login-info .btns input {
+    height: 33px;
+    line-height: 33px;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-info .btns .login input {
+    background: #4CACF8;
+}
+
+.login-info .btns .cancel input {
+    background: #6284A0;
+}
