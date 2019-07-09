@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border: 1px solid red;  
+}
+ tr,td,th{
+    border: 1px solid black;  
+    padding: 10px;
+ }
+ .input-group{
+     display: inline-block;
+     vertical-align: top;
+ }
+
+ .placeholder{
+
+  padding-right: 100px;
+ }
+ .strong{
+     font-weight: 600;
+     font-size: 19px;
+ }
+
+
+ .panel-body .title{
+     text-align: center;
+ }

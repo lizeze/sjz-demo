@@ -14,23 +14,25 @@
 	<!-- /site favicon -->
 
 	<!-- Entypo font stylesheet -->
-	<link href="../css/entypo.css" rel="stylesheet">
+	<link href="../../css/entypo.css" rel="stylesheet">
 	<!-- /entypo font stylesheet -->
 
 	<!-- Font awesome stylesheet -->
-	<link href="../css/font-awesome.min.css" rel="stylesheet">
+	<link href="../../css/font-awesome.min.css" rel="stylesheet">
 	<!-- /font awesome stylesheet -->
 
 	<!-- Bootstrap stylesheet min version -->
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
 	<!-- /bootstrap stylesheet min version -->
 
 	<!-- Integral core stylesheet -->
-	<link href="../css/integral-core.css" rel="stylesheet">
+	<link href="../../css/integral-core.css" rel="stylesheet">
 	<!-- /integral core stylesheet -->
 
-	<link href="../css/integral-forms.css" rel="stylesheet">
-	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet"
+		href="../../plugins/datetimepicker/bootstrap-datetimepicker.min.css">
+	<link href="../../css/integral-forms.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/common.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,7 +80,7 @@
 								<h4 class="panel-title">搜索</h4>
 								<ul class="panel-tool-options">
 									<li><a data-rel="collapse" href="#"><i class="icon-down-open"></i></a></li>
-									<li><a data-rel="reload" href="#"><i class="icon-arrows-ccw"></i></a></li>
+									<li><a data-rel="reload" href="#"><i class="icon-search"></i></a></li>
 									<li><a data-rel="close" href="#"><i class="icon-cancel"></i></a></li>
 								</ul>
 							</div>
@@ -119,9 +121,13 @@
 												<label class="col-sm-4 control-label" for="inputEmail3">开始时间</label>
 												<div class="col-sm-8">
 
-													<input type="email" placeholder="开始时间" id="inputEmail3"
-														class="form-control">
+													<div class="input-group date">
+														<input type="text" data-format="yyyy-MM-dd"
+															class="form-control datetimepicker">
+														<span class="input-group-addon"><i
+																class="fa fa-calendar"></i></span>
 
+													</div>
 												</div>
 											</div>
 										</div>
@@ -129,14 +135,19 @@
 											<div class="form-group">
 												<label class="col-sm-4 control-label" for="inputEmail3">结束时间</label>
 												<div class="col-sm-8">
-													<input type="email" placeholder="结束时间" id="inputEmail3"
-														class="form-control">
+													<div class="input-group date">
+														<input type="text" data-format="yyyy-MM-dd"
+															class="form-control datetimepicker">
+														<span class="input-group-addon"><i
+																class="fa fa-calendar"></i></span>
+													</div>
 												</div>
 											</div>
 										</div>
 										<div class="col-sm-4">
 											<div class="form-group">
-												<label class="col-sm-4 control-label" for="inputEmail3">关键字</label>
+												<label class="col-sm-4 control-label"
+													for="inputEmail3">&nbsp;&nbsp;关键字</label>
 												<div class="col-sm-8">
 													<input type="email" placeholder="关键字" id="inputEmail3"
 														class="form-control">
@@ -165,12 +176,12 @@
 			</div>
 			<div class="main-tool">
 				<div class="row">
-				 
-						<div class="col-lg-12">
 
-							<button class="btn btn-info">新增指令</button>
-							<button class="btn btn-info">新增指令</button>
-						</div>
+					<div class="col-lg-12">
+
+						<button class="btn btn-info">新增指令</button>
+						<button class="btn btn-info">新增指令</button>
+					</div>
 				</div>
 			</div>
 			<div class="row">
@@ -308,6 +319,20 @@
 					</div>
 				</div>
 			</div>
+			<div class="row" style="text-align: right">
+
+				<ul class="pagination">
+					<li><a href="javascript:void()"><i class="icon-left-open-mini"></i></a></li>
+					<li class="active"><a href="javascript::void()">1</a></li>
+					<li><a href="javascript::void()">2</a></li>
+					<li><a href="javascript::void()">3</a></li>
+					<li class="disabled"><a href="javascript::void()">4</a></li>
+					<li><a href="javascript::void()">5</a></li>
+					<li><a href="javascript::void()">6</a></li>
+					<li><a href="javascript::void()"><i class="icon-right-open-mini"></i></a></li>
+				</ul>
+
+			</div>
 		</div>
 		<!-- /main content -->
 	</div>
@@ -317,13 +342,27 @@
 	<!-- /page container -->
 
 	<!--Load JQuery-->
-	<script src="../js/jquery.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../plugins/metismenu/js/jquery.metisMenu.js"></script>
-	<script src="../plugins/blockui-master/js/jquery-ui.js"></script>
-	<script src="../plugins/blockui-master/js/jquery.blockUI.js"></script>
-	<script src="../js/functions.js"></script>
-	<script src="../js/loader.js"></script>
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+
+	<script src="../../plugins/datetimepicker/moment.min.js"></script>
+	<script
+		src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
+	<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
+
+	<script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
+	<script src="../../plugins/blockui-master/js/jquery-ui.js"></script>
+	<script src="../../plugins/blockui-master/js/jquery.blockUI.js"></script>
+	<script src="../../js/functions.js"></script>
+	<script src="../../js/loader.js"></script>
 </body>
+<script>
+	$(function () {
+		$('.datetimepicker').datetimepicker({
+			format: 'YYYY-MM-DD',
+			locale: moment.locale('zh-cn')
+		});
+	})
+</script>
 
 </html>

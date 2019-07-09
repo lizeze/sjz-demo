@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Integral - A fully responsive, HTML5 based admin template">
+    <meta name="keywords"
+          content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
+    <title>人像比对申请</title>
+    <!-- Site favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'/>
+    <!-- /site favicon -->
+
+    <!-- Entypo font stylesheet -->
+    <link href="../../css/entypo.css" rel="stylesheet">
+    <!-- /entypo font stylesheet -->
+
+    <!-- Font awesome stylesheet -->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <!-- /font awesome stylesheet -->
+
+    <!-- Bootstrap stylesheet min version -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <!-- /bootstrap stylesheet min version -->
+
+    <!-- Integral core stylesheet -->
+    <link href="../../css/integral-core.css" rel="stylesheet">
+    <!-- /integral core stylesheet -->
+
+    <link rel="stylesheet" href="../../plugins/datetimepicker/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../../plugins/select2-4.0.7/css/select2.min.css">
+    <link rel="stylesheet" href="../Global/css/edit.css">
+    <link rel="stylesheet" href="../../css/common.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+<!-- Loader Backdrop -->
+<div class="loader-backdrop">
+    <!-- Loader -->
+    <!-- <div class="loader">
+        <div class="bounce-1"></div>
+        <div class="bounce-2"></div>
+    </div> -->
+    <!-- /loader -->
+</div>
+<!-- loader backgrop -->
+
+<!-- Page container -->
+<div class="page-container">
+
+    <!-- /page sidebar -->
+
+    <!-- Main container -->
+    <div class="main-container">
+
+        <!-- /main header -->
+
+        <!-- Main content -->
+        <div class="main-content">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading clearfix">
+                            <h4 class="panel-title">人像比对申请</h4>
+                            <ul class="panel-tool-options">
+                                <li><a data-rel="collapse" href="#"><i class="icon-down-open"></i></a></li>
+                                <li><a data-rel="reload" href="#"><i class="icon-arrows-ccw"></i></a></li>
+                                <li><a data-rel="close" href="#"><i class="icon-cancel"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="title">
+                                    <h1>人像比对申请表</h1>
+                                    填写单位:石家庄市公安局中山路派出所
+                                    <span class="placeholder"></span>
+                                    填表时间:2019年7月9日
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm12">
+                                    <table>
+                                        <tbody>
+
+                                        <tr>
+
+                                            <td>案件名称</td>
+                                            <td colspan="3">案件编号</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>案件编号</td>
+                                            <td></td>
+                                            <td>办案单位</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>申请人</td>
+                                            <td></td>
+                                            <td>联系电话</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>基本情况</td>
+                                            <td colspan="3">
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>比对图像编号</td>
+                                            <td colspan="3">
+                                                <p>A130104410000201905025+001</p>
+                                                <p> A130104410000201905025+002</p>
+                                                <p>A130104410000201905025+003</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td>比对图像来源</td>
+                                            <td colspan="3">网人脸监控或社会监控</td>
+                                        </tr>
+                                        <tr>
+                                            <td>采取人像比对技术措施的目的</td>
+                                            <td colspan="3">
+                                                确定嫌疑人身份
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>备注</td>
+                                            <td colspan="3"></td>
+                                        </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-align: right;margin-bottom: 50px">
+                <button class="btn btn-blue  " type="button" onclick="showfeedback()">反馈</button>
+            </div>
+            <div class="row hide" id="feedback">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading clearfix">
+                            <h4 class="panel-title">反馈</h4>
+                            <ul class="panel-tool-options">
+                                <li><a data-rel="collapse" href="#"><i class="icon-down-open"></i></a></li>
+                                <li><a data-rel="reload" href="#"><i class="icon-arrows-ccw"></i></a></li>
+                                <li><a data-rel="close" href="#"><i class="icon-cancel"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <form class="form-horizontal">
+
+                                <div class="row">
+                                    <span>是否比出</span>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+
+
+                                            <div class="input-group">
+                                                <input type="radio" name="d">
+                                                <label for="">是</label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <label class="col-sm-4 control-label">嫌疑人姓名</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <label class="col-sm-4 control-label">身份证号</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+
+
+                                            <div class="input-group">
+                                                <input type="radio" name="d">
+                                                <label for="">否</label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <label class="col-sm-4 control-label">原因</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control">
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-sm-2">
+                                        <div class="form-group">
+
+
+                                            <div class="input-group">
+                                                <input type="radio" name="d">
+                                                <label for="">不确定</label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <label class="col-sm-4 control-label">嫌疑人姓名</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="form-group">
+                                            <label class="col-sm-4 control-label">身份证号</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" class="form-control">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-dashed"></div>
+                                <div class="row">
+
+                                    <p> 如果涉及比对人像,需要申请人提交纸质单据,如已提交请点是,否则请选否
+                                    </p>
+                                    <span class="placeholder"></span>
+                                    <span class="placeholder"></span>
+                                    <span class="placeholder"></span>
+                                    <div class="input-group">
+                                        <input type="radio" name="r">
+                                        <label for="">是</label>
+
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="radio" name="r">
+                                        <label for="">否</label>
+
+                                    </div>
+                                </div>
+
+                                <div class="row" style="text-align: center">
+
+                                    <button type="button" class="btn btn-blue dropdown-toggle"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        提交
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /main content -->
+</div>
+<!-- /main container -->
+
+</div>
+<!-- /page container -->
+
+<!--Load JQuery-->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+
+<script src="../../plugins/datetimepicker/moment.min.js"></script>
+<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
+<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
+<script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
+
+<script src="../../js/loader.js"></script>
+
+</body>
+<script>
+    function showfeedback() {
+
+        $('#feedback').removeClass('hide')
+    }
+</script>
+
+</html>
