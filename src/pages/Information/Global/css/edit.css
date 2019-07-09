@@ -24,3 +24,21 @@ table {
  .panel-body .title{
      text-align: center;
  }
+
+.panel-warpper {
+    border: 2px solid #000000;
+    padding: 1em;
+    margin: 1em;
+    display: block;
+}
+
+.panel-header {
+    position: relative;
+    top: -1.7em;
+    background-color: #ffffff;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 6%;
+}
