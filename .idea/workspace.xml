@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0050a6-9ec3-4370-b156-0128e2d65c23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/alerts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/badges-label.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/basic-tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blank-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/breadcrumbs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/cards-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/collapsed-sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/comments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/data-tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detailed-view-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detailed-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/editors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/error-404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/file-upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fixed-sidebar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/forgot-password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/form-advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/form-basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/form-wizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-c3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-chartist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-chartjs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-flot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-morris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-peity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/graph-sparkline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/icons-entypo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/icons-fontawesome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/icons-glyphicons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/lockscreen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/mail-compose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/mail-inbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/mail-read.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/maps-vector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/modals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/moreclick.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/navbars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/panels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/css/summernote.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/font/summernote.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/font/summernote.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/font/summernote.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/js/summernote-script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/js/summernote.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/progress-bars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/short-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/simple-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/strip-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/table-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tabs-accordions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tooltips-popovers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/video.html" beforeDir="false" />
-    </list>
+    <list default="true" id="3e0050a6-9ec3-4370-b156-0128e2d65c23" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -237,12 +177,6 @@
               <item name="sjzweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="sjzweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sjzweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sjzweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,17 +245,17 @@
       <updated>1562650329318</updated>
       <workItem from="1562650331769" duration="4924000" />
       <workItem from="1562674237069" duration="5219000" />
-      <workItem from="1562713340586" duration="25013000" />
+      <workItem from="1562713340586" duration="25317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35156000" />
+    <option name="totallyTimeSpent" value="35460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24312897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24312897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -333,7 +267,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36560693" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36560693" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
