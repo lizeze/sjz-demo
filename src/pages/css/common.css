@@ -18,3 +18,31 @@
 .hide{
     display: none;
 }
+fieldset{
+    margin-bottom: 20px;
+}
+.thumbnail img{
+    width: 258px;
+    height: 175px;
+}
+
+.panel-warpper {
+    border: 2px solid #000000;
+    padding: 1em;
+    margin: 1em;
+    display: block;
+}
+
+.panel-warpper .panel-header {
+    position: relative;
+    top: -1.7em;
+    background-color: #ffffff;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 6%;
+}
+.form-group select{
+    width: 100%;
+}

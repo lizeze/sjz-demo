@@ -8,7 +8,7 @@
     <meta name="description" content="Integral - A fully responsive, HTML5 based admin template">
     <meta name="keywords"
           content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
-    <title>人像比对申请</title>
+    <title>新建指令</title>
     <!-- Site favicon -->
     <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'/>
     <!-- /site favicon -->
@@ -30,8 +30,9 @@
     <!-- /integral core stylesheet -->
 
     <link rel="stylesheet" href="../../plugins/datetimepicker/bootstrap-datetimepicker.min.css">
+    <link href="../../css/integral-forms.css" rel="stylesheet">
     <link rel="stylesheet" href="../../plugins/select2-4.0.7/css/select2.min.css">
-    <link rel="stylesheet" href="../Global/css/edit.css">
+    <link rel="stylesheet" href="../../plugins/layui/css/layui.css">
     <link rel="stylesheet" href="../../css/common.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -75,211 +76,89 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
+
                         <div class="panel-body">
-                            <div class="row">
-                                <div class="title">
-                                    <h1>人像比对申请表</h1>
-                                    填写单位:石家庄市公安局中山路派出所
-                                    <span class="placeholder"></span>
-                                    填表时间:2019年7月9日
-                                </div>
 
-                            </div>
-                            <div class="row">
-                                <div class="col-sm12">
-                                    <table>
-                                        <tbody>
+                            <form class="form-horizontal" role="form">
+                                <fieldset>
+                                    <legend>基本信息</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">案件名称</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" placeholder="案件名称">
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">案件编号</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" placeholder="案件编号">
+                                        </div>
 
-                                        <tr>
-
-                                            <td>案件名称</td>
-                                            <td colspan="3">案件编号</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>案件编号</td>
-                                            <td></td>
-                                            <td>办案单位</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>申请人</td>
-                                            <td></td>
-                                            <td>联系电话</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>基本情况</td>
-                                            <td colspan="3">
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>比对图像编号</td>
-                                            <td colspan="3">
-                                                <p>A130104410000201905025+001</p>
-                                                <p> A130104410000201905025+002</p>
-                                                <p>A130104410000201905025+003</p></td>
-                                        </tr>
-                                        <tr>
-                                            <td>比对图像来源</td>
-                                            <td colspan="3">网人脸监控或社会监控</td>
-                                        </tr>
-                                        <tr>
-                                            <td>采取人像比对技术措施的目的</td>
-                                            <td colspan="3">
-                                                确定嫌疑人身份
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>备注</td>
-                                            <td colspan="3"></td>
-                                        </tr>
-                                        </tbody>
-
-                                    </table>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="text-align: center;margin-bottom: 50px">
-                <button class="btn btn-blue  " type="button" onclick="showfeedback()">反馈</button>
-            </div>
-            <div class="row hide" id="feedback">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading clearfix">
-                            <h4 class="panel-title">反馈</h4>
-                            <ul class="panel-tool-options">
-                                <li><a data-rel="collapse" href="#"><i class="icon-down-open"></i></a></li>
-                                <li><a data-rel="reload" href="#"><i class="icon-arrows-ccw"></i></a></li>
-                                <li><a data-rel="close" href="#"><i class="icon-cancel"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="panel-body">
-                            <form class="form-horizontal">
-
-                                <div class="row">
-                                    <span>是否比出</span>
-                                </div>
-                                <div class="row">
-
-                                    <div class="col-sm-2">
-                                        <div class="form-group">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_name">办案单位</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="办案单位"/>
+                                        </div>
 
 
-                                            <div class="input-group">
-                                                <input type="radio" name="d">
-                                                <label for="">是</label>
+                                    </div>
+                                    <div class="form-group">
 
-                                            </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">联系人</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="ds_name" type="text"
+                                                   placeholder="联系人"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">联系电话</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="ds_name" type="text"
+                                                   placeholder="联系电话"/>
                                         </div>
                                     </div>
-                                    <div class="col-sm-5">
-                                        <div class="form-group">
-                                            <label class="col-sm-4 control-label">嫌疑人姓名</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control">
+                                    <div class="form-group">
 
-                                            </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">基本情况</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control">
                                         </div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="form-group">
-                                            <label class="col-sm-4 control-label">身份证号</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control">
 
-                                            </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>比对情况</legend>
+                                    <div class="form-group">
+                                        <label for="" class="control-label col-sm-2">比对图像编号</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" id=" " type="text"
+                                                   placeholder="比对图像编号 "/>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-
-                                    <div class="col-sm-2">
-                                        <div class="form-group">
-
-
-                                            <div class="input-group">
-                                                <input type="radio" name="d">
-                                                <label for="">否</label>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="form-group">
-                                            <label class="col-sm-4 control-label">原因</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control">
-
-                                            </div>
+                                        <label class="col-sm-2 control-label" for="ds_host">比对图像来源</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id=" " type="text"
+                                                   placeholder=" 比对图像来源"/>
                                         </div>
                                     </div>
 
-                                </div>
-                                <div class="row">
+                                    <div class="form-group">
 
-                                    <div class="col-sm-2">
-                                        <div class="form-group">
-
-
-                                            <div class="input-group">
-                                                <input type="radio" name="d">
-                                                <label for="">不确定</label>
-
-                                            </div>
+                                        <label for="" class="col-sm-2 control-label">采取人像比对技术措施的目的</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <label for="" class="control-label col-sm-2">备注</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-sm-5">
-                                        <div class="form-group">
-                                            <label class="col-sm-4 control-label">嫌疑人姓名</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control">
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="form-group">
-                                            <label class="col-sm-4 control-label">身份证号</label>
-                                            <div class="col-sm-8">
-                                                <input type="text" class="form-control">
+                                </fieldset>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="line-dashed"></div>
-                                <div class="row">
-
-                                    <p> 如果涉及比对人像,需要申请人提交纸质单据,如已提交请点是,否则请选否
-                                    </p>
-                                    <span class="placeholder"></span>
-                                    <span class="placeholder"></span>
-                                    <span class="placeholder"></span>
-                                    <div class="input-group">
-                                        <input type="radio" name="r">
-                                        <label for="">是</label>
-
-                                    </div>
-                                    <div class="input-group">
-                                        <input type="radio" name="r">
-                                        <label for="">否</label>
-
-                                    </div>
-                                </div>
 
                                 <div class="row" style="text-align: center">
-
-                                    <button type="button" class="btn btn-blue dropdown-toggle"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        提交
+                                    <button class="btn btn-blue" type="button" data-toggle="modal"
+                                            data-target="#myModal">反馈
                                     </button>
+
                                 </div>
                             </form>
                         </div>
@@ -294,7 +173,70 @@
 
 </div>
 <!-- /page container -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    比对结果
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group clearfix">
+                    <label for="" class="control-label col-sm-2">是否比出</label>
+                    <div class="col-sm-10">
+                        <select name="" id="rs" class="control-label" onchange="changeRs()">
+                            <option value="1">是</option>
+                            <option value="0">否</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-group clearfix" id="user">
 
+                        <label for="" class="col-sm-2 control-label">嫌疑人姓名</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" placeholder="嫌疑人姓名">
+                        </div>
+
+                        <label for="" class="col-sm-2 control-label">身份证号</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" placeholder="身份证号">
+                        </div>
+
+                    </div>
+                    <div class="form-group clearfix hide" id="why">
+
+                        <label for="" class="control-label col-sm-2">原因</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    如果涉及比对人像,需要申请人提交纸质单据,如已提交请点是,否则请选否.
+                </div>
+                <div class="row" style="text-align: center">
+
+                    <input type="radio" name="a"><label for="">是</label>
+                    <input type="radio" name="a"><label for="">否</label>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    提交更改
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <!--Load JQuery-->
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
@@ -303,15 +245,52 @@
 <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
 <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
 <script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
+<script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
 
+<script src="../../plugins/layui/layui.js"></script>
+<script src="../../js/functions.js"></script>
 <script src="../../js/loader.js"></script>
 
 </body>
 <script>
-    function showfeedback() {
 
-        $('#feedback').removeClass('hide')
+    function changeRs(r) {
+
+        if ($('#rs')[0].value === '0') {
+            $('#user').addClass('hide').siblings().removeClass('hide')
+        }else{
+            $('#user').removeClass('hide').siblings().addClass('hide')
+
+        }
     }
+
+    $(function () {
+        $('.datetimepicker').datetimepicker({
+            format: 'YYYY-MM-DD HH:mm',
+            locale: moment.locale('zh-cn')
+        });
+
+        $("#e2_2").select2({
+            allowClear: true,
+            placeholder: "请选择"
+        });
+        layui.use('layedit', function () {
+            var layedit = layui.layedit;
+            layedit.build('demo', {
+                tool: [
+                    'strong' //加粗
+                    , 'italic' //斜体
+                    , 'underline' //下划线
+                    , 'del' //删除线
+                    , '|' //分割线
+                    , 'left' //左对齐
+                    , 'center' //居中对齐
+                    , 'right' //右对齐
+                    , 'face' //表情
+                ]
+            }); //建立编辑器
+        });
+    })
 </script>
 
 </html>

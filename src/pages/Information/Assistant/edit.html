@@ -30,8 +30,9 @@
     <!-- /integral core stylesheet -->
 
     <link rel="stylesheet" href="../../plugins/datetimepicker/bootstrap-datetimepicker.min.css">
+    <link href="../../css/integral-forms.css" rel="stylesheet">
     <link rel="stylesheet" href="../../plugins/select2-4.0.7/css/select2.min.css">
-    <link rel="stylesheet" href="../Global/css/edit.css">
+    <link rel="stylesheet" href="../../plugins/layui/css/layui.css">
     <link rel="stylesheet" href="../../css/common.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -77,112 +78,170 @@
                     <div class="panel panel-default">
 
                         <div class="panel-body">
-                            <div class="row">
-                                <div class="col-sm12">
-                                    <table>
-                                        <tbody>
-                                        <tr>
 
-                                            <td style="max-width: 90px">案件名称</td>
-                                            <td>
-                                                <input type="text" class="form-control">
+                            <form class="form-horizontal" role="form">
+                                <fieldset>
+                                    <legend>基本信息</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">案件名称</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" placeholder="案件名称">
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">接警编号</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control" placeholder="接警编号">
+                                        </div>
 
-                                            </td>
-                                            <td>接警编号</td>
-                                            <td>   <input type="text" class="form-control"></td>
-                                        </tr>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_name">办案民警</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="办案民警"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="">办案单位</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="办案单位"/>
 
-                                        <tr>
-                                            <td width="180px">办案民警(姓名+联系方式)</td>
-                                            <td>   <input type="text" class="form-control"></td>
-                                            <td width="100px">办案单位</td>
-                                            <td>   <input type="text" class="form-control"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>简要案情</td>
-                                            <td colspan="3">  <textarea class="form-control"></textarea></td>
-                                        </tr>
-                                        <tr>
-                                            <td>案件类别</td>
-                                            <td colspan="3">
-                                                <din class="input-group">
-                                                    <input  name="a" type="radio"><label for="">刑事</label>
-                                                </din>
-                                                <din class="input-group">
-                                                    <input  name="a" type="radio"><label for="">行政</label>
-                                                </din>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>立(受)案时间</td>
-                                            <td colspan="3"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>盗窃物品</td>
-                                            <td colspan="3"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>是否提供线索（以附件形式上传视频、图片，若没有嫌疑人作案过程，有嫌疑人其他视频，需告知嫌疑人明显特征）</td>
-                                            <td colspan="3">   <textarea  style="height: 100%;width: 100%" type="text" class="form-control"></textarea></td>
-                                        </tr>
-                                        <tr>
-                                            <td>协助追踪结果反馈</td>
-                                            <td colspan="3"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">是否使用人脸比对（如果使用了，需要提交申请表，才可以看到我们反馈的追踪结果，如果没有使用，可以直接看到追踪结果）</td>
-                                       <td>
-                                           <div class="input-grop">
-                                               <input type="radio" name="b"> <label for="">是</label>
-                                           </div>
-                                           <br>
-                                           <div class="input-grop">
-                                               <input type="radio" name="b"> <label for="">否</label>
-                                           </div>
-                                       </td>
-                                             <td>
-                                                 <ul class="list-group">
-                                                     <li class="list-group-item">附件.jpg</li>
-                                                     <li class="list-group-item">附件.jpg</li>
-                                                     <li class="list-group-item">附件.jpg</li>
-                                                 </ul>
-                                             </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                是否破案（案件已破，1.需上传正面、左侧、右侧三张嫌疑人照片 2.说明侦破过程）
-                                            </td>
-                                            <td>
-                                                <div class="input-grop">
-                                                    <input type="radio" name="c"> <label for="">是</label>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+
+                                        <label class="col-sm-2 control-label" for="ds_name">简要案情</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control " id="ds_name" type="text"
+                                                   placeholder="简要案情"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <label class="col-sm-2 control-label" for="ds_name">案件类别</label>
+                                        <div class="col-sm-4">
+                                            <select name="" id="" class="form-control">
+
+                                                <option value="">刑事</option>
+                                                <option value="">行政</option>
+
+                                            </select>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">立案时间</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control datetimepicker">
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>其他</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">是否提供线索（以附件形式上传视频、图片，若没有嫌疑人作案过程，有嫌疑人其他视频，需告知嫌疑人明显特征）</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="ds_host" type="text"
+                                                   placeholder=" "/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_host">协助追踪结果反馈</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="ds_host" type="text"
+                                                   placeholder=" 协助追踪结果反馈"/>
+                                        </div>
+                                    </div>
+
+
+                                </fieldset>
+                                <fieldset>
+                                    <legend></legend>
+                                    <div class="alert alert-warning" role="alert">
+                                        是否使用人脸比对（如果使用了，需要提交申请表，才可以看到我们反馈的追踪结果，如果没有使用，可以直接看到追踪结果）
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-sm-4">
+                                            <select name="" id="" class="form-control">
+
+                                                <option value="">是</option>
+                                                <option value="">否</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/1.jpeg" alt="">
+                                                <div class="caption">
                                                 </div>
-                                                <br>
-                                                <div class="input-grop">
-                                                    <input type="radio" name="c"> <label for="">否</label>
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/2.jpeg" alt="">
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/3.jpeg" alt="">
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </fieldset>
+
+
+                                <fieldset>
+                                    <legend> </legend>
+                                    <div class="alert alert-warning" role="alert">
+                                        是否破案（案件已破，1.需上传正面、左侧、右侧三张嫌疑人照片 2.说明侦破过程）
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-4">
+                                            <select name="" id="" class="form-control">
+
+                                                <option value="">是</option>
+                                                <option value="">否</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/1.jpeg" alt="">
+                                                <div class="caption">
                                                 </div>
-                                            </td>
-                                            <td>
-                                                <ul class="list-group">
-                                                    <li class="list-group-item">附件.jpg</li>
-                                                    <li class="list-group-item">附件.jpg</li>
-                                                    <li class="list-group-item">附件.jpg</li>
-                                                </ul>
-                                            </td>
-                                        </tr>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/2.jpeg" alt="">
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/3.jpeg" alt="">
+                                            </a>
+
+                                        </div>
+                                        <button type="button" class="btn btn-black"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span
+                                                class="bold">上传</span></button>
+                                    </div>
+                                </fieldset>
+
+                                <div class="row" style="text-align: center">
+                                    <button class="btn btn-blue" type="button">反馈</button>
+                                    <button class="btn btn-blue" type="button">转办</button>
                                 </div>
-
-                            </div>
-
+                            </form>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row" style="text-align: right">
-                <button class="btn btn-blue  " type="button">反馈</button>
-                <button class="btn btn-warning  " type="button">转办</button>
             </div>
         </div>
     </div>
@@ -201,20 +260,39 @@
 <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
 <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
 <script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
+<script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
 
+<script src="../../plugins/layui/layui.js"></script>
+<script src="../../js/functions.js"></script>
 <script src="../../js/loader.js"></script>
 
 </body>
 <script>
     $(function () {
         $('.datetimepicker').datetimepicker({
-            format: 'YYYY-MM-DD',
+            format: 'YYYY-MM-DD HH:mm',
             locale: moment.locale('zh-cn')
         });
 
         $("#e2_2").select2({
             allowClear: true,
             placeholder: "请选择"
+        });
+        layui.use('layedit', function () {
+            var layedit = layui.layedit;
+            layedit.build('demo', {
+                tool: [
+                    'strong' //加粗
+                    , 'italic' //斜体
+                    , 'underline' //下划线
+                    , 'del' //删除线
+                    , '|' //分割线
+                    , 'left' //左对齐
+                    , 'center' //居中对齐
+                    , 'right' //右对齐
+                    , 'face' //表情
+                ]
+            }); //建立编辑器
         });
     })
 </script>

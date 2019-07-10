@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Integral - A fully responsive, HTML5 based admin template">
     <meta name="keywords"
-        content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
+          content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
     <title>新建指令</title>
     <!-- Site favicon -->
-    <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'/>
     <!-- /site favicon -->
 
     <!-- Entypo font stylesheet -->
@@ -32,14 +32,15 @@
     <link rel="stylesheet" href="../../plugins/datetimepicker/bootstrap-datetimepicker.min.css">
     <link href="../../css/integral-forms.css" rel="stylesheet">
     <link rel="stylesheet" href="../../plugins/select2-4.0.7/css/select2.min.css">
+    <link rel="stylesheet" href="../../plugins/layui/css/layui.css">
     <link rel="stylesheet" href="../../css/common.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-<![endif]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 
     <style>
 
@@ -48,191 +49,160 @@
 
 <body>
 
-    <!-- Loader Backdrop -->
-    <div class="loader-backdrop">
-        <!-- Loader -->
-        <!-- <div class="loader">
-			<div class="bounce-1"></div>
-			<div class="bounce-2"></div>
-		</div> -->
-        <!-- /loader -->
-    </div>
-    <!-- loader backgrop -->
+<!-- Loader Backdrop -->
+<div class="loader-backdrop">
+    <!-- Loader -->
+    <!-- <div class="loader">
+        <div class="bounce-1"></div>
+        <div class="bounce-2"></div>
+    </div> -->
+    <!-- /loader -->
+</div>
+<!-- loader backgrop -->
 
-    <!-- Page container -->
-    <div class="page-container">
+<!-- Page container -->
+<div class="page-container">
 
-        <!-- /page sidebar -->
+    <!-- /page sidebar -->
 
-        <!-- Main container -->
-        <div class="main-container">
+    <!-- Main container -->
+    <div class="main-container">
 
-            <!-- /main header -->
+        <!-- /main header -->
 
-            <!-- Main content -->
-            <div class="main-content">
+        <!-- Main content -->
+        <div class="main-content">
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="panel panel-default">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
 
-                            <div class="panel-body">
-                                <form class="form-horizontal">
+                        <div class="panel-body">
 
+                            <form class="form-horizontal" role="form">
+                                <fieldset>
+                                    <legend>基本信息</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">信息文号</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" id="ds_host" type="text" placeholder="信息文号"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">信息标题</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" id="ds_name" type="text" placeholder="信息标题"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_username">发文单位</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" id="ds_username" type="text"
+                                                   placeholder="发文单位"/>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-grop">
+
+                                        <div class="col-sm-12">
+                                            <textarea id="demo" style="display: none;"></textarea>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>涉及人员</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">姓名</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" id="ds_host" type="text" placeholder="姓名"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">身份证号</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control" id="ds_name" type="text" placeholder="身份证号"/>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend>涉及单位</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">接收单位</label>
+                                        <div class="col-sm-4">
+                                            <select name="" id="e2_2" style="width: 100%" multiple>
+                                                <option value="1">人事部</option>
+                                                <option value="1">法务部</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">签收时限</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control datetimepicker" id="ds_host" type="text" placeholder="签收时限"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_host">反馈时限</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control datetimepicker" id="ds_host" type="text" placeholder="反馈时限"/>
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>附件</legend>
                                     <div class="row">
-
-                                        <div class="col-sm-4">
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">信息文号</label>
-                                                <div class="col-sm-8">
-
-                                                    <input type="text" placeholder="信息文号" class="form-control">
-
+                                        <div class="col-xs-6 col-md-3">
+                                            <a  class="thumbnail">
+                                                <img src="1.jpeg" alt=""  width="258px" height="175px" >
+                                                <div class="caption">
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">信息标题</label>
-                                                <div class="col-sm-8">
-                                                    <input type="text" class="form-control" placeholder="信息标题">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
+                                            </a>
 
-
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">发文单位</label>
-                                                <div class="col-sm-8">
-                                                    <input type="text" placeholder="发文单位" class="form-control">
-                                                </div>
-                                            </div>
                                         </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a  class="thumbnail">
+                                                <img src="2.jpeg" alt=""  width="258px" height="175px"  >
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a  class="thumbnail">
+                                                <img src="3.jpeg" alt=""  width="258px" height="175px"  >
+                                            </a>
+
+                                        </div>
+                                        <button type="button" class="btn btn-black"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">上传</span></button>
                                     </div>
-                                    <div class="row">
-                                        <div class="form-group">
-                                            <div class="col-sm-4">
-                                                <label class="col-sm-4 control-label">信息正文</label>
-                                                <div class="col-sm-8">
-                                                    <textarea style="width: 300%;min-height: 200px"
-                                                        class="form-control"></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="line-dashed"></div>
+                                </fieldset>
 
-                                    <div class="row">
-
-                                        <div class="col-sm-4">
-
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">姓名</label>
-                                                <div class="col-sm-8">
-                                                    <input type="text" placeholder="姓名" class="form-control">
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-sm-4">
-
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">证件号码</label>
-                                                <div class="col-sm-8">
-
-                                                    <input type="text" placeholder="证件号码" class="form-control">
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <button type="button" class="btn btn-black"><i
-                                                    class="fa fa-upload"></i>&nbsp;&nbsp;<span
-                                                    class="bold">上传</span></button>
-                                        </div>
-                                    </div>
-
-                                    <div class="line-dashed"></div>
-                                    <div class="row">
-
-                                        <div class="col-sm-4">
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">接收单位</label>
-                                                <div class="col-sm-8">
-                                                    <select id="e2_2" multiple="multiple"
-                                                        style="width: 300px"
-                                                        class="选择部门"  >
-                                                        <option></option>
-                                                          <option value="1">人事部</option>
-                                                          <option value="15">商务部</option>
-                                                          <option value="14">董事</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">签收时限</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-group date">
-                                                        <input type="text" data-format="yyyy-MM-dd"
-                                                            class="form-control datetimepicker">
-                                                        <span class="input-group-addon"><i
-                                                                class="fa fa-calendar"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <div class="form-group">
-                                                <label class="col-sm-4 control-label">反馈时限</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-group date">
-                                                        <input type="text" data-format="yyyy-MM-dd"
-                                                            class="form-control datetimepicker">
-                                                        <span class="input-group-addon"><i
-                                                                class="fa fa-calendar"></i></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="row" style="text-align: center">
-
-                                        <button type="button" class="btn btn-blue dropdown-toggle"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            发送
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
+                                <div class="row" style="text-align: center">
+                                    <button class="btn btn-blue" type="button">发送</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /main content -->
     </div>
-    <!-- /main container -->
+    <!-- /main content -->
+</div>
+<!-- /main container -->
 
-    </div>
-    <!-- /page container -->
+</div>
+<!-- /page container -->
 
-    <!--Load JQuery-->
-    <script src="../../js/jquery.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
+<!--Load JQuery-->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 
-    <script src="../../plugins/datetimepicker/moment.min.js"></script>
-    <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
-    <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
-    <script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
-    <script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
-    <script src="../../plugins/blockui-master/js/jquery-ui.js"></script>
-    <script src="../../plugins/blockui-master/js/jquery.blockUI.js"></script>
-    <script src="../../js/functions.js"></script>
-    <script src="../../js/loader.js"></script>
+<script src="../../plugins/datetimepicker/moment.min.js"></script>
+<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
+<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
+<script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
+<script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
+
+<script src="../../plugins/layui/layui.js"></script>
+<script src="../../js/functions.js"></script>
+<script src="../../js/loader.js"></script>
 
 </body>
 <script>
@@ -245,6 +215,22 @@
         $("#e2_2").select2({
             allowClear: true,
             placeholder: "请选择"
+        });
+        layui.use('layedit', function () {
+            var layedit = layui.layedit;
+            layedit.build('demo', {
+                tool: [
+                    'strong' //加粗
+                    , 'italic' //斜体
+                    , 'underline' //下划线
+                    , 'del' //删除线
+                    , '|' //分割线
+                    , 'left' //左对齐
+                    , 'center' //居中对齐
+                    , 'right' //右对齐
+                    , 'face' //表情
+                ]
+            }); //建立编辑器
         });
     })
 </script>

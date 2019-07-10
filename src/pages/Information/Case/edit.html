@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Integral - A fully responsive, HTML5 based admin template">
     <meta name="keywords"
-        content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
+          content="Responsive, Web Application, HTML5, Admin Template, business, professional, Integral, web design, CSS3">
     <title>新建指令</title>
     <!-- Site favicon -->
-    <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico' />
+    <link rel='shortcut icon' type='image/x-icon' href='../images/favicon.ico'/>
     <!-- /site favicon -->
 
     <!-- Entypo font stylesheet -->
@@ -32,15 +32,15 @@
     <link rel="stylesheet" href="../../plugins/datetimepicker/bootstrap-datetimepicker.min.css">
     <link href="../../css/integral-forms.css" rel="stylesheet">
     <link rel="stylesheet" href="../../plugins/select2-4.0.7/css/select2.min.css">
-    <link rel="stylesheet" href="../Global/css/edit.css">
+    <link rel="stylesheet" href="../../plugins/layui/css/layui.css">
     <link rel="stylesheet" href="../../css/common.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-<![endif]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 
     <style>
 
@@ -49,258 +49,342 @@
 
 <body>
 
-    <!-- Loader Backdrop -->
-    <div class="loader-backdrop">
-        <!-- Loader -->
-        <!-- <div class="loader">
-			<div class="bounce-1"></div>
-			<div class="bounce-2"></div>
-		</div> -->
-        <!-- /loader -->
-    </div>
-    <!-- loader backgrop -->
+<!-- Loader Backdrop -->
+<div class="loader-backdrop">
+    <!-- Loader -->
+    <!-- <div class="loader">
+        <div class="bounce-1"></div>
+        <div class="bounce-2"></div>
+    </div> -->
+    <!-- /loader -->
+</div>
+<!-- loader backgrop -->
 
-    <!-- Page container -->
-    <div class="page-container">
+<!-- Page container -->
+<div class="page-container">
 
-        <!-- /page sidebar -->
+    <!-- /page sidebar -->
 
-        <!-- Main container -->
-        <div class="main-container">
+    <!-- Main container -->
+    <div class="main-container">
 
-            <!-- /main header -->
+        <!-- /main header -->
 
-            <!-- Main content -->
-            <div class="main-content">
+        <!-- Main content -->
+        <div class="main-content">
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="panel panel-default">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
 
-                            <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-sm12">
-                                        <table>
-                                            <tbody>
-                                                <tr>
+                        <div class="panel-body">
 
-                                                    <td style="max-width: 90px">警情来源</td>
-                                                    <td>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">110指令</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">110指令</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">投案</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">扭送</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">工作发现</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">举报</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">控告</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">扭送</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">交办</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input name="police" type="radio">
-                                                            <label for="">其他</label>
-                                                        </div>
-                                                    </td>
-                                                    <td>接警时间</td>
-                                                    <td>2019年7月9日 12时30分</td>
-                                                </tr>
-                                                <tr>
-                                                    <td rowspan="2">出警时间</td>
-                                                    <td rowspan="2">2019年7月9日 12时33分</td>
-                                                    <td rowspan="2">处警反馈</td>
-                                                    <td>
-                                                        <div class="input-group">
-                                                            <input type="checkbox"> <label for="">市局指挥中心</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input type="checkbox"> <label for="">分局指挥中心</label>
-                                                        </div>
-                                                        <div class="input-group">
-                                                            <input type="checkbox"> <label for="">上级领导</label>
-                                                        </div>
-                                                    </td>
-                                                </tr>
+                            <form class="form-horizontal" role="form">
+                                <fieldset>
+                                    <legend>基本信息</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">案件名称</label>
+                                        <div class="col-sm-4">
+                                            <select name="" class="form-control" id="">
+                                                <option value="d">110指令</option>
+                                                <option value="d2">投案</option>
+                                                <option value="d3">扭送</option>
+                                                <option value="d4">工作发现</option>
+                                                <option value="d55">举报</option>
+                                                <option value="d" 44>控告</option>
+                                                <option value="d33">交办</option>
+                                                <option value="d22">其他</option>
+                                            </select>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_name">处警反馈</label>
+                                        <div class="col-sm-4">
+                                            <input type="checkbox" id="shiju"><label for="shiju">市局指挥中心</label>
+                                            <input type="checkbox" id="fenju"><label for="fenju">分局指挥中心</label>
+                                            <input type="checkbox" id="shangji"><label for="shangji">上级领导</label>
+                                        </div>
 
-                                                <tr>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_name">报警时间</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control datetimepicker" id="" type="text"
+                                                   placeholder="报警时间"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="">出警时间</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control datetimepicker" id="" type="text"
+                                                   placeholder="报警时间"/>
 
-                                                    <td>结束时间 2019年7月9日 12时36分</td>
-                                                </tr>
+                                        </div>
 
-                                                <tr>
+                                    </div>
+                                    <div class="form-group">
 
-                                                    <td rowspan="6">简要案情</td>
-                                                    <td colspan="3">发现时间 2019年7月9日 12时39分</td>
+                                        <label class="col-sm-2 control-label" for="ds_name">结束时间</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control datetimepicker" id="ds_name" type="text"
+                                                   placeholder="结束时间"/>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>简要案情</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">发现时间</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control datetimepicker" id="ds_host" type="text"
+                                                   placeholder="发现时间"/>
+                                        </div>
 
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="3"><span style="padding-right: 50px">发现地点</span> <span
-                                                            class="strong">海淀</span>（区） <span
-                                                            class="strong">红旗</span>（街/路） <span class="strong">12
-                                                        </span>号 <br>
-                                                        <span class="placeholder"></span> <span
-                                                            class="strong">幸福里</span> (小区/公司/店面) <span
-                                                            class="strong">5</span> 号楼 <span class="strong">3</span> 单元
-                                                        <span class="strong"> 1001</span>室</td>
-                                                </tr>
-                                                <tr>
-
-                                                    <td colspan="3">
-                                                        报警人/受害人：<span>张三</span> <span class="placeholder"></span>
-                                                        身份证号：<span>110345199483769832</span><br>
-                                                        单位/住址:<span>北京</span> <span
-                                                            class="placeholder"></span>联系方式:<span>13111344567</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-
-                                                    <td colspan="3">案别：<span class="placeholder"></span>案名：<span
-                                                            class="placeholder"></span>案件编号：</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="3">案事件叙述：</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="3">
-                                                        侵害结果：损失物品（名称数据特征价值，手机号，串码，电脑MAC地址，QQ号，微信号，支付宝等）
-
-                                                        <br><span class="placeholder"></span>
-                                                        人身伤害 伤 人（伤情）
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td rowspan="2">处警视频（使用记录仪情况）</td>
-                                                    <td colspan="3">对被侵害对象（人、物、地） 口有 （时长）：</td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="3">对被侵害对象（人、物、地） 口无 （原因）：</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>其他线索和证据</td>
-                                                    <td colspan="3"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>侦察方向及措施</td>
-                                                    <td colspan="3"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width: 100px">需合成作战数据支撑内容（查人、落地、舆情控制）</td>
-                                                    <td colspan="3"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>处理结果</td>
-                                                    <td colspan="3"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>办案及处警人员</td>
-                                                    <td colspan="3">
-                                                        单位：<span class="placeholder"></span>
-                                                        签名：<span class="placeholder"></span>
-                                                        电话：<span class="placeholder"></span>
-
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
                                     </div>
 
+                                    <div class="form-group">
+
+                                        <label class="col-sm-2 control-label" for="ds_name">发现地点</label>
+                                        <div class="col-sm-10">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">区</span>
+                                                <input type="text" class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">(街/路)</span>
+                                                <input type="text" class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">号</span>
+                                                <input type="text" class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">小区/公司/店面</span>
+                                                <input type="text" class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">号楼</span>
+                                                <input type="text"
+                                                       class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">单元</span>
+                                                <input type="text"
+                                                       class="form-control"
+                                                       aria-label="Amount (to the nearest dollar)">
+                                                <span class="input-group-addon">室</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="line-dashed"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">报警人</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="报警人"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="">身份证号</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="身份证号"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">单位/住址</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="单位/住址"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="">联系方式</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="联系方式"/>
+                                        </div>
+                                    </div>
+                                    <div class="line-dashed"></div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="">案别</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="案别"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="">案名</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="案名"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <label class="col-sm-2 control-label" for="">案件编号</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control " id="" type="text"
+                                                   placeholder="案件编号"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <label class="col-sm-2 control-label" for="">案事件叙述</label>
+                                        <div class="col-sm-10">
+                                            <textarea id="demo" style="display: none;"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+
+                                        <label class="col-sm-2 control-label" for="">侵害结果</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" placeholder="侵害结果">
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend>其他</legend>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">对被侵害对象</label>
+                                        <div class="col-sm-4">
+                                            <select name="" id="" style="width: 100%" class="form-control">
+                                                <option value="">有</option>
+                                                <option value="">无</option>
+                                            </select>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_host">时长/原因</label>
+                                        <div class="col-sm-4">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label" for="ds_host">其他线索和证据</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="其他线索和证据"/>
+                                        </div>
+                                        <label class="col-sm-2 control-label" for="ds_host">侦察方向及措施</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="侦察方向及措施"/>
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="" class="control-label col-sm-2">需合成作战数据支撑内容（查人、落地、舆情控制）</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder=" "/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="" class="control-label col-sm-2"> 处理结果</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder=" "/>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <legend>处理人</legend>
+                                    <div class="form-group">
+                                        <label for="" class="control-label col-sm-2">单位</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="单位 "/>
+                                        </div>
+                                        <label for="" class="control-label col-sm-2"> 签名</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder=" "/>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="" class="control-label col-sm-2">电话</label>
+                                        <div class="col-sm-4">
+                                            <input class="form-control  " id="" type="text"
+                                                   placeholder="电话 "/>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+                                <fieldset>
+                                    <legend>附件</legend>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/1.jpeg" alt=""  >
+                                                <div class="caption">
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/2.jpeg" alt="" >
+                                            </a>
+
+                                        </div>
+                                        <div class="col-xs-6 col-md-3">
+                                            <a class="thumbnail">
+                                                <img src="../Instruction/3.jpeg" alt="" >
+                                            </a>
+
+                                        </div>
+                                        <button type="button" class="btn btn-black"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span
+                                                class="bold">上传</span></button>
+                                    </div>
+                                </fieldset>
+
+                                <div class="row" style="text-align: center">
+                                    <button class="btn btn-blue" type="button">提交</button>
                                 </div>
-   
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                        <div class="col-lg-12">
-                            <div class="panel panel-default">
-                                <div class="panel-heading clearfix">
-                                    <h4 class="panel-title">附件</h4>
-                                    <ul class="panel-tool-options">
-                                        <li><a data-rel="collapse" href="#"><i class="icon-down-open"></i></a></li>
-                                        <li><a data-rel="reload" href="#"><i class="icon-arrows-ccw"></i></a></li>
-                                        <li><a data-rel="close" href="#"><i class="icon-cancel"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row">
-                                        <div class="col-sm12">
-                                                <button type="button" class="btn btn-black"><i
-                                                    class="fa fa-upload"></i>&nbsp;&nbsp;<span
-                                                    class="bold">上传</span></button>
-                                                    <ul class="list-group">
-                                                            <li class="list-group-item">附件.jpg</li>
-                                                            <li class="list-group-item">附件.jpg</li>
-                                                            <li class="list-group-item">附件.jpg</li>
-                                                            <li class="list-group-item">附件.jpg</li>
-                                                            <li class="list-group-item">附件.jpg</li>
-                                                          </ul>
-                                        </div>
-    
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
             </div>
         </div>
-        <!-- /main content -->
     </div>
-    <!-- /main container -->
+    <!-- /main content -->
+</div>
+<!-- /main container -->
 
-    </div>
-    <!-- /page container -->
+</div>
+<!-- /page container -->
 
-    <!--Load JQuery-->
-    <script src="../../js/jquery.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
+<!--Load JQuery-->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 
-    <script src="../../plugins/datetimepicker/moment.min.js"></script>
-    <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
-    <script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
-    <script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
-    <script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
-    <script src="../../plugins/blockui-master/js/jquery-ui.js"></script>
-    <script src="../../plugins/blockui-master/js/jquery.blockUI.js"></script>
-    <script src="../../js/functions.js"></script>
-    <script src="../../js/loader.js"></script>
+<script src="../../plugins/datetimepicker/moment.min.js"></script>
+<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.min.js" crossorigin="anonymous"></script>
+<script src="../../plugins/datetimepicker/bootstrap-datetimepicker.de.js"></script>
+<script src="../../plugins/select2-4.0.7/js/select2.min.js"></script>
+<script src="../../plugins/metismenu/js/jquery.metisMenu.js"></script>
+
+<script src="../../plugins/layui/layui.js"></script>
+<script src="../../js/functions.js"></script>
+<script src="../../js/loader.js"></script>
 
 </body>
 <script>
     $(function () {
         $('.datetimepicker').datetimepicker({
-            format: 'YYYY-MM-DD',
+            format: 'YYYY-MM-DD HH:mm',
             locale: moment.locale('zh-cn')
         });
 
         $("#e2_2").select2({
             allowClear: true,
             placeholder: "请选择"
+        });
+        layui.use('layedit', function () {
+            var layedit = layui.layedit;
+            layedit.build('demo', {
+                tool: [
+                    'strong' //加粗
+                    , 'italic' //斜体
+                    , 'underline' //下划线
+                    , 'del' //删除线
+                    , '|' //分割线
+                    , 'left' //左对齐
+                    , 'center' //居中对齐
+                    , 'right' //右对齐
+                    , 'face' //表情
+                ]
+            }); //建立编辑器
         });
     })
 </script>
