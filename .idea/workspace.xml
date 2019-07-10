@@ -2,144 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e0050a6-9ec3-4370-b156-0128e2d65c23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/images/anjian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/buddha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/home-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/home-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/menu-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/top-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/images/zhiling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Information/Instruction/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Information/Instruction/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Information/Instruction/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/images/page-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/images/top-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/loading-btn/loading-btn.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/plugins/loading-btn/loading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Assistant/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Assistant/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Assistant/than.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Assistant/than.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Case/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Case/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Credentials/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Credentials/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Global/css/edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Global/css/edit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Instruction/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Instruction/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Instruction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Instruction/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Information/Pwd/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Information/Pwd/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/badges-label.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/basic-tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blank-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/breadcrumbs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/cards-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/collapsed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/data-tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detailed-view-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detailed-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/editors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error-404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/file-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fixed-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forgot-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/form-advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/form-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/form-wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-c3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-chartist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-chartjs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-peity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/graph-sparkline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/icons-entypo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/icons-fontawesome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/icons-glyphicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/lockscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mail-compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mail-inbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mail-read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/maps-vector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/modals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/moreclick.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/navbars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/panels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/css/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/font/summernote.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/font/summernote.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/font/summernote.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/js/summernote-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/plugins/summernote/js/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/progress-bars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/short-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/simple-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/strip-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/table-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tabs-accordions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/tooltips-popovers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/video.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -171,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/echart.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="21" column="739030" lean-forward="true" selection-start-line="21" selection-start-column="739030" selection-end-line="21" selection-end-column="739030" />
+              <caret line="21" column="739030" selection-start-line="21" selection-start-column="739030" selection-end-line="21" selection-end-column="739030" />
             </state>
           </provider>
         </entry>
@@ -188,17 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
+            <state relative-caret-position="386">
               <caret line="3613" column="1" selection-start-line="3613" selection-start-column="1" selection-end-line="3613" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/graph-flot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="442" column="41" selection-start-line="442" selection-start-column="41" selection-end-line="442" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -331,8 +243,14 @@
               <item name="sjzweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="sjzweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sjzweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sjzweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,18 +311,17 @@
       <updated>1562650329318</updated>
       <workItem from="1562650331769" duration="4924000" />
       <workItem from="1562674237069" duration="5219000" />
-      <workItem from="1562713340586" duration="24184000" />
+      <workItem from="1562713340586" duration="25013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34327000" />
+    <option name="totallyTimeSpent" value="35156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24312897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24312897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +333,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.11849711" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36560693" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -630,7 +547,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/echart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="21" column="739030" lean-forward="true" selection-start-line="21" selection-start-column="739030" selection-end-line="21" selection-end-column="739030" />
+          <caret line="21" column="739030" selection-start-line="21" selection-start-column="739030" selection-end-line="21" selection-end-column="739030" />
         </state>
       </provider>
     </entry>
@@ -656,7 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
+        <state relative-caret-position="386">
           <caret line="3613" column="1" selection-start-line="3613" selection-start-column="1" selection-end-line="3613" selection-end-column="1" />
         </state>
       </provider>
