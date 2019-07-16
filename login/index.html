@@ -6,7 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>登录</title>
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="../main/assets/css/ace-ie.min.css"/>
+    <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="../src/main/assets/js/html5shiv.js"></script>
+    <script src="../src/main/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+  <!--[if IE]>
+    <script type="text/javascript">window.jQuery || document.write("<script src='../src/main/assets/js/jquery-1.10.2.min.js'>" + "<" + "script>");</script>
+    <![endif]-->
+  <!--[if lte IE 8]>
+    <script src="../src/main/assets/js/excanvas.min.js"></script>
+    <![endif]-->
   <link rel="stylesheet" href="../login/css/main.css">
+
 </head>
 
 <body>
@@ -15,10 +30,10 @@
     <div class="login-info">
       <span>用户登录</span>
       <div class="input-warpper">
-        <input type="text" placeholder="请输入用户名" />
+        <input type="text" placeholder="请输入用户名" id="username" />
       </div>
       <div class="input-warpper">
-        <input type="password" placeholder="请输入密码" />
+        <input type="password" placeholder="请输入密码"  id="pwd"/>
       </div>
       <div class="remember">
 
@@ -28,7 +43,7 @@
       </div>
       <div class="btns">
         <div class="login btn">
-          <input type="button" value="登录" onclick="alert('1')"></div>
+          <input type="button" value="登录" onclick="login()"></div>
         <div class="cancel btn">
           <input type="button" value=" 取消"> </div>
       </div>
@@ -36,6 +51,8 @@
 
   </div>
   <!-- <img src="./img/back.png" alt=""  > -->
-</body>
-
+</body> 
+<script src="../src/pages/js/jquery.min.js"></script>
+<script src="../src/global/script/app.js"></script>
+<script src="./js/main.js"></script>
 </html>
